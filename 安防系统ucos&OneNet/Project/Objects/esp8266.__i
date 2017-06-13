@@ -1,0 +1,8 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\Project -I.\RTE\Device\STM32F103RE -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\EDP -I..\Network
+-I E:\学习文件夹\STM32学习\程序实验\安防系统ucos&OneNet\Project\RTE
+-I E:\学习文件夹\STM32学习\程序实验\安防系统ucos&OneNet\Project\RTE\Device\STM32F103RE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc
+-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32L10X_HD
+-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d "..\Network\esp8266.c"

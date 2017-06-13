@@ -1,0 +1,8 @@
+.\objects\edpkit.o: ..\EDP\EdpKit.c
+.\objects\edpkit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\edpkit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\edpkit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\edpkit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\edpkit.o: ..\EDP\EdpKit.h
+.\objects\edpkit.o: ..\EDP\Common.h
+.\objects\edpkit.o: ..\EDP\cJSON.h
